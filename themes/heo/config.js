@@ -5,8 +5,10 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到我的博客', url: 'https://www.yuanbang.lol/' },
+    { title: 'JS逆向系列', url: 'https://www.yuanbang.lol/category/JS%E9%80%86%E5%90%91' },
+    { title: '通杀补环境框架', url: 'https://www.yuanbang.lol/category/%E9%80%9A%E6%9D%80%E8%A1%A5%E7%8E%AF%E5%A2%83%E6%A1%86%E6%9E%B6' },
+    { title: '电商逆向系列', url: 'https://www.yuanbang.lol/category/%E7%94%B5%E5%95%86%E9%80%86%E5%90%91%E7%B3%BB%E5%88%97' },
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,14 +20,14 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '分享编程',
   HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
+  HEO_HERO_TITLE_4: '为爱发电',
+  HEO_HERO_TITLE_5: '猿榜编程博客',
   HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: 'JS逆向系列', url: '/category/JS逆向' },
+  HEO_HERO_CATEGORY_2: { title: '电商逆向系列', url: '/category/电商逆向系列' },
+  HEO_HERO_CATEGORY_3: { title: '自动化系列', url: '/category/自动化系列' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -113,9 +115,9 @@ const CONFIG = {
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_TITLE_2: '扫码加入我们的公众号',
+  HEO_SOCIAL_CARD_TITLE_3: '点击获取二维码',
+  HEO_SOCIAL_CARD_URL: 'https://github.com/2451379809/source_file/blob/main/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置

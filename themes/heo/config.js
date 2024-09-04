@@ -22,7 +22,7 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'TANGLY1024.COM',
   HEO_HERO_TITLE_4: '为爱发电',
   HEO_HERO_TITLE_5: '猿榜编程博客',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_LINK: 'https://www.yuanbang.lol/',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: 'JS逆向系列', url: '/category/JS逆向' },
